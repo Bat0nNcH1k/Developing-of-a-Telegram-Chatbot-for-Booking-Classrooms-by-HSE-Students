@@ -8,4 +8,4 @@ requests==2.32.2
 ruff==0.4.6
 telebot==0.0.5
 urllib3==2.2.1
-ytest==8.2.1
+pytest==8.2.1
