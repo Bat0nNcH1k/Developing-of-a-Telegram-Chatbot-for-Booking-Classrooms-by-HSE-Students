@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: "python -m hse_nn_bot"
+    env_file:
+      - .env
+    restart: unless-stopped
